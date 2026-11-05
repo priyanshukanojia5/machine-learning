@@ -1,0 +1,13 @@
+a=input(str("enter a grade of student " ))
+b=input(str("enter a grade of student " ))
+c=input(str("enter a grade of student " ))
+d=input(str("enter a grade of student " ))
+e=input(str("enter a grade of student " ))
+g=input(str("enter a grade of student " ))
+tup=(a,b,c,d,e,g)
+print(tup)
+print(f"count of {a} in tuple is {tup.count(a)}")
+list=[a,b,c,d,e,g]
+print(f"list is {list}")
+list.sort()
+print(f"sorted list is {list}")
